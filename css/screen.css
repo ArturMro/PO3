@@ -569,6 +569,27 @@ footer .copyrights a.ph_link{
   color: yellow;
 }
 
+/*------------------------------ Start of table -----------------------------------*/
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.hide{
+  display: none;
+}
+/*------------------------------ End of table -------------------------------------*/
+
 @media (max-width:1500px){
   .masthead{
     height: 800px;
